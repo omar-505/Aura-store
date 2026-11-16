@@ -47,3 +47,6 @@ margin: auto; text-align: center;}
      border-color: rgb(2, 169, 38);
 }
 .wts{ text-align: center;}
+#lorem{
+    font: italic small-caps lighter 20px fantasy ;  
+}
