@@ -1,5 +1,5 @@
 
-body{ background-image: url(12.jpg); background-size: auto;}
+body{ background-image: url(backg.jpg); background-size: auto;}
 h1{ color: #cc7a0e;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-size: 40px;
@@ -17,13 +17,13 @@ a{text-decoration: none;}
 
 .div{ border: 1px black solid; border-radius: 10px;
      box-shadow: 3px 3px 10px 2px rgb(77, 77, 77) inset;
-    background-image: url(au.jfif);
+     background-image:  linear-gradient(to top left, #d4f0ab, #bbeccf, #e0e0ac);
     }
 
 .about{ border: 1px black solid; border-radius: 10px ;
 padding: 8px;
 box-shadow: 3px 3px 10px 2px rgb(77, 77, 77) inset;
-background-image: url(au.jfif);}
+background-image: linear-gradient(to top left, #d4f0ab, #bbeccf, #e0e0ac);}
 
 #s1 { font-size: 20px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; line-height: 25px;
@@ -37,19 +37,24 @@ font-size: 20px;}
 #serv{ border: 1px black solid; border-radius: 10px ;
 padding: 8px;
 box-shadow: 3px 3px 10px 2px rgb(77, 77, 77) inset;
-background-image: url(au.jfif);}
+background-image:linear-gradient(to top left, #d4f0ab, #bbeccf, #e0e0ac);}
 
 #cont{width: 300px; border: 1px black solid; border-radius: 10px ;
 padding: 8px;
 box-shadow: 3px 3px 10px 2px rgb(77, 77, 77) inset;
-margin: auto; text-align: center;}
+margin: auto; text-align: center;
+background-image: linear-gradient(to top left, #d4f0ab, #bbeccf, #e0e0ac);}
+
 #contact{font-family:monospace; font-style: italic; font-weight: 600px ; color: rgb(82, 82, 246);}
-#whats{
+#whats{ background-image: linear-gradient(rgb(63, 234, 63));
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger; border-style: dotted; border-radius: 5px;
+    font-size: medium; border-style: dotted; border-radius: 5px;
      border-color: rgb(2, 169, 38);
 }
 .wts{ text-align: center;}
-#lorem{
-    font: bold 20px san-serif   ;  
-}
+
+#lorem{ font: bold 20px san-serif; }
+
+.divo{ border: 1px solid black;
+     border-radius: 5px; box-shadow:3px 3px 10px 3px  rgb(123, 123, 123);
+     background-image: linear-gradient(to top left, #d4f0ab, #bbeccf, #e0e0ac); }
